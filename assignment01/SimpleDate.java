@@ -24,11 +24,11 @@ public class SimpleDate  {
 	}
         else if (this.year == other.year){
 	    if (this.month < other.month){
-		return True;
+		return true;
 	    }
 	    if (this.month  == other.month){
 		if (this.day < other.day) {
-		    return True;
+		    return true;
 
 		}
 

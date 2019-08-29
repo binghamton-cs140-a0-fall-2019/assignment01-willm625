@@ -63,17 +63,17 @@ public class Person {
 
 	}
 // TODO provide the getter methods for placeDob and address
-    public String getplaceDob(){
+        public DateAndPlaceOfBirth getplaceDob(){
 	    return placeDob;
-    }
+        }
 
-    public String getaddress(){
+        public StreetUSAddress getaddress(){
 	    return address;
-    }
+        }
 
-    public String toString() {
-	return firstNames + lastNames + ssn + placeDob + address;
+        public String toString() {
+	    return firstNames + lastNames + ssn + placeDob + address;
 
-    }
+       }
 }
 

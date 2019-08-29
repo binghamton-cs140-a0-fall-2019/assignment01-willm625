@@ -7,26 +7,25 @@ import java.io.PrintWriter;
 
 public class ComputerOwnerTester{
     public static void main(String[] args) {
-	DateAndPlaceofBirth tap = new DateAndPlaceofBirth(2001, 5, 1, "Sacramento", "California", "USA");
+	DateAndPlaceOfBirth tap = new DateAndPlaceOfBirth(2001, 5, 1, "Sacramento", "California", "USA");
 	StreetUSAddress zap = new StreetUSAddress("34-02", "32-09","Sacramento", "CA", "54321");
 	Person ap = new Person("Joe", "Low", "444-44-4444", tap, zap);
 	ComputerOwner Joseph = new ComputerOwner(ap);
-	Computer one = new Computer("macbook", "new", 16, 1001, true, 100.9 );
-	Computer two = new Computer("windows", "old", 32, 1002, false, 99.9 );
-	Computer three = new Computer("lenovo", "refurbished", 500, 998, false, 200.01 );
-	Computer four = new Computer("dell", "new", 128, 999, false, 300.30);
+	Computer fe = new Computer("macbook", "new", 16, 1001, true, 100.9 );
+	Computer fi = new Computer("windows", "old", 32, 1002, false, 99.9 );
+	Computer fo = new Computer("lenovo", "refurbished", 500, 998, false, 200.01 );
+	Computer fum = new Computer("dell", "new", 128, 999, false, 300.30);
 	
-	Joseph.addComputer(one);
-	Joseph.addComputer(two);
-	Joseph.addComputer(three);
-	Joseph.addComputer(four);
+	Joseph.addComputer(fe);
+	Joseph.addComputer(fi);
+	Joseph.addComputer(fo);
+	Joseph.addComputer(fum);
 	
 	
 	// print object
 	System.out.println(Joseph);
 	// removing two computers
-	Joseph.removeComputer(three);
-	Joseph.removeComputer(four);
+	Joseph.removeComputer(2);
 	
        	System.out.println(Joseph);
 
@@ -38,25 +37,24 @@ public class ComputerOwnerTester{
 		//Copy all your lines above, add an extra "2" to every variable name
 		// and replace every System.out.print or System.out.println
 		// by output.print or output.println
-	DateAndPlaceofBirth tap2 = new DateAndPlaceofBirth(2001, 5, 1, "Sacramento", "California", "USA");
+	DateAndPlaceOfBirth tap2 = new DateAndPlaceOfBirth(2001, 5, 1, "Sacramento", "California", "USA");
 	StreetUSAddress zap2 = new StreetUSAddress("34-02", "32-09","Sacramento", "CA", "54321");
 	Person ap2 = new Person("Joe", "Low", "444-44-4444", tap2, zap2);
 	ComputerOwner Joseph2 = new ComputerOwner(ap2);
-	Computer one2 = new Computer("macbook", "new", 16, 1001, true, 100.9 );
-	Computer two2 = new Computer("windows", "old", 32, 1002, false, 99.9 );
-	Computer three2 = new Computer("lenovo", "refurbished", 500, 998, false, 200.01 );
-	Computer four2 = new Computer("dell", "new", 128, 999, false, 300.30);
-	Joseph2.addComputer(one2);
-	Joseph2.addComputer(two2);
-	Joseph2.addComputer(three2);
-	Joseph2.addComputer(four2);
+	Computer fe2 = new Computer("macbook", "new", 16, 1001, true, 100.9 );
+	Computer fi2 = new Computer("windows", "old", 32, 1002, false, 99.9 );
+	Computer fo2 = new Computer("lenovo", "refurbished", 500, 998, false, 200.01 );
+	Computer fum2 = new Computer("dell", "new", 128, 999, false, 300.30);
+	Joseph2.addComputer(fe2);
+	Joseph2.addComputer(fi2);
+	Joseph2.addComputer(fo2);
+	Joseph2.addComputer(fum2);
 	
 	
 	// print object
 	System.out.println(Joseph2);
 	// removing two computers
-	Joseph2.removeComputer(three2);
-	Joseph2.removeComputer(four2);
+	Joseph2.removeComputer(2);
 	
        	System.out.println(Joseph2);
 
