@@ -62,6 +62,18 @@ public class Person {
 		return String.format("%03d-%02d-%04d", ssn/1000000,ssn%1000000/10000, ssn%10000); 
 
 	}
-// TODO provide the getter methods for placeDob and address 
+// TODO provide the getter methods for placeDob and address
+    public String getplaceDob(){
+	    return placeDob;
+    }
 
+    public String getaddress(){
+	    return address;
+    }
+
+    public String toString() {
+	return firstNames + lastNames + ssn + placeDob + address;
+
+    }
 }
+
