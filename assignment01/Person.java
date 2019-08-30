@@ -72,7 +72,7 @@ public class Person {
         }
 
         public String toString() {
-	    return firstNames + lastNames + ssn + placeDob + address;
+	    return firstNames + "  "+ lastNames + "  "+ ssn +"  "+ placeDob +"  "+ address;
 
        }
 }
