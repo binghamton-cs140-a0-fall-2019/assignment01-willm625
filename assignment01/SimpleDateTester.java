@@ -18,7 +18,7 @@ public class SimpleDateTester{
 
 		//Copy all your lines above, add an extra "2" to every variable name
 		// and replace every System.out.print or System.out.println
-      		// by output.print or output.println
+      		// by output.print or output.println to go to output
 	  SimpleDate datea2 = SimpleDate.of(2000, 4, 1);
           SimpleDate dateb2 = SimpleDate.of(2001, 3, 4);
 
